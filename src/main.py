@@ -23,6 +23,6 @@ my_string = "Hello %s , how are you? %s" %(nome, 'ok')
 person = {"name": "John", "age": 19}
 print(f"{person['name']} is {person['age']} years old")
 
-my_string2 = "the rest is empty \n with no brain \n but the clever nerd \n the best MC with no chain \n that you evere heard"
+my_string2 = "the rest is empty \n with no brain \n but the clever nerd \n the best MC with no chain \n that you ever heard"
 print(my_string2)
 print(my_string2[0:10])
