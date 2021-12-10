@@ -4,11 +4,11 @@ import math
 a = 0.8
 b = math.exp(a)
 w = complex(a,b)
-print(w)
+#print(w)
 
 for i in range(10):
   c = i * w
-  print(c)
+  #print(c)
 
 #print(type(w))
 
@@ -22,3 +22,8 @@ my_string = "Hello %s , how are you? %s" %(nome, 'ok')
 
 person = {"name": "John", "age": 19}
 print(f"{person['name']} is {person['age']} years old")
+
+my_string2 = "the rest is empty \n with no brain \n but the clever nerd \n the best MC with no chain \n that you evere heard"
+print(my_string2)
+print(my_string2[0:10])
+print(c in my_string2)
