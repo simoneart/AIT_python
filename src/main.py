@@ -14,9 +14,11 @@ for i in range(10):
 
 #esercizio 2
 
-prv = "Oggi è s% %d %d" %("Venerdì",20,"Settembre")
-print(prv)
+nome = "Peter"
+my_string = "Hello my name is %s" %nome
+#print(my_string)
+my_string = "Hello %s , how are you? %s" %(nome, 'ok')
+#print(my_string)
 
-name = "Peter"
-my_string = "Hello my name is %s" %name
-print(my_string)
+person = {"name": "John", "age": 19}
+print(f"{person['name']} is {person['age']} years old")
