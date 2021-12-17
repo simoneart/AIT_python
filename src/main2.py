@@ -82,3 +82,30 @@ print(tup2[2])
 print(('de','Pefforza')*15)
 
 print(('bella')+('ciao'))
+
+#DIZIONARI
+
+my_dict = dict({'key1': 9, 'key2':7, 'key3':98})
+my_dict = dict([('key1','znego'),('key2', [0,1,2])])
+print(my_dict['key1'])
+print(my_dict.get('key2'))
+my_dict['key3'] = (1,2,3)
+my_dict.pop('key2')
+del(my_dict['key1'])
+my_dict.clear()
+print(my_dict)
+
+#controlo flow
+
+x = 45.
+y = 0.5
+while (x > 3):
+  y = y + x*y
+  print('x: ', x, 'y: ', y)
+  x = x/3.
+  if (y>x):
+    break
+
+else: y = 0.
+
+print('x: ', x, 'y: ', y) #the else clause is not executed
