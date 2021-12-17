@@ -109,3 +109,13 @@ while (x > 3):
 else: y = 0.
 
 print('x: ', x, 'y: ', y) #the else clause is not executed
+
+a = {1:'a',2:'b'}
+for el in a.keys(): #by key
+  print(el)
+
+for el in a.values(): #by value
+  print(el)
+
+for el1,el2 in a.items(): #by item
+  print(el1,el2)
